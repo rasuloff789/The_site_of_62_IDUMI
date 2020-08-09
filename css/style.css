@@ -1,0 +1,114 @@
+html{
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+  box-sizing: inherit;
+}
+.head_nav{
+  width: 1440px;
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.body_nav{
+  background-color: #ccc;
+  align-items: center;
+}
+.head_nav_ul{
+  width: 890px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.head_nav_ul li{
+  list-style-type: none;
+  margin: 0 ;
+  padding: 2px 5px;
+  border: #ccc solid 2px;
+  border-radius: 5px;
+  transition: ease border 0.3s;
+}
+.head_nav_ul li:hover{
+ border: #ffffff solid 2px;
+}
+.sections_link{ 
+  width: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+padding: 5px;
+text-decoration: none;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+color: #4B5D68;
+}
+.sections_link img{
+  padding-right: 5px;
+  color:#4B5D68 ;
+}
+.bedroom_opening_article{
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color:#eec9d2;
+  transition: ease background-color 0.4s,
+  border-radius ease 0.8s;
+}
+.bedroom_opening_article:hover{
+  background-color:#f6abb6;
+ border-radius: 30px;
+}
+.bedroom_opening_img{
+  transition: border-radius ease 0.8s;
+}
+.bedroom_opening_article:hover .bedroom_opening_img{
+ border-radius: 30px;
+}
+.new_bedroom_opening_text{
+  font-family: "Avenir", Helvetica, sans-serif;
+  width: 50%;
+  font-size: 18px;
+  padding:0 20px;
+  margin: 0;
+}
+.guest_from_france_devimor{
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #b3cde0;
+  transition: ease background-color 1.2s,
+  ease border-radius 0.8s;
+}
+.guest_from_france_devimor:hover{
+  background-color: #005b96   ;
+  border-radius: 30px;
+}
+.guest_from_france_devimor_img{
+  transition: ease border-radius 0.8s;
+}
+.guest_from_france_devimor:hover .guest_from_france_devimor_img{
+border-radius: 30px;
+}
+.guest_from_france_devimor_text{
+  font-family: "Avenir", Helvetica, sans-serif;
+  width: 20%;
+  font-size: 18px;
+  padding: 20px 0 20px 20px;
+  margin: 0;
+}
