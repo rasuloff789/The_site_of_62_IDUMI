@@ -27,23 +27,66 @@ html{
   padding: 0;
   margin: 0;
 }
-.head_nav_ul li{
+._head_nav_box{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   width: 160px;
   list-style-type: none;
   margin: 0 ;
-  padding: 2px 5px;
+  padding: 5px;
   border: #ccc solid 2px;
   border-radius: 5px;
   transition: ease border 0.3s;
 }
-.head_nav_ul li:hover{
+.sections-li:hover .ul_maktab_haqida{
+  display: block;
+}
+.sections-li{
+  display: inline-block;
+  /* position: relative; */
+}
+.sections-li ul{
+ display: none;
+  top: 100%;
+  left: 0;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  /* margin-top: 20px; */
+}
+.sections-li ul li{ 
+  background-color: #ccc;
+  border: 2px solid #ccc;
+  margin: 0;
+  padding: 0;
+  width: 160px;
+  padding:5px 0 5px 15px;
+   transition: ease border 0.4s,
+   border-radius ease 0.8s;
+}
+.sections-li ul li:hover{
+  border: 2px solid #fff;
+  border-radius:15px;
+}
+.sections-li ul a{
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+color: #4B5D68;
+}
+._head_nav_box:hover{
  border: #ffffff solid 2px;
 }
 .sections_link{ 
-  width: 160px;
+ 
   display: flex;
   align-items: center;
   justify-content: center;
-padding: 5px;
 text-decoration: none;
 font-weight: 500;
 font-size: 18px;
